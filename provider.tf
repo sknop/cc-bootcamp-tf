@@ -16,6 +16,6 @@ provider "confluent" {
 
 provider "aws" {
   region     = var.region
-  access_key = "AKIA4CEZVBNWQZ6SNH7D"
-  secret_key = "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"
+  access_key = var.aws_access_key
+  secret_key = var.aws_secret_key
 }
